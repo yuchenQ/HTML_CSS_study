@@ -1,0 +1,137 @@
+<!-- simple_ex1 -->
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>W3Cschool</title>
+</head>
+
+<body>
+  <a id="tips">Useful Tips Section</a><br>
+  <h1>我的第一个标题</h1>
+  <hr />
+  <h2>这是标题2</h2>
+  <hr />
+  <h3>这是标题 3</h3>
+  <hr />
+  <h4>这是标题 4</h4>
+  <h5>这是标题 5</h5>
+  <h6>这是标题 6</h6>
+
+  <b>加粗文本</b><br><br>
+  <!-- <br> 换行符 -->
+  <i>斜体文本</i><br><br>
+  <code>电脑自动输出</code><br><br>
+  <!-- <code> 标签用于表示计算机源代码或者其他机器可以阅读的文本内容 -->
+  这是 <sub> 下标</sub> 和 <sup> 上标</sup>
+  <!--这是一个注释，注释在浏览器中不会显示-->
+  <p>我的第一个段落。</p>
+  <p>这个<br>段落<br>演示了分行的效果</p>
+
+  <b>这个文本是加粗的</b>
+  <br />
+  <strong>这个文本是加粗的</strong>
+  <br />
+  <big>这个文本字体放大</big>
+  <br />
+  <em>这个文本是斜体的</em>
+  <br />
+  <i>这个文本是斜体的</i>
+  <br />
+  <small>这个文本是缩小的</small>
+  <br /> 这个文本包含
+  <sub>下标</sub>
+  <br /> 这个文本包含
+  <sup>上标</sup><br />
+
+  <pre>
+此例演示如何使用 pre 标签
+对空行和    空格
+进行控制
+</pre>
+
+  <code>计算机输出</code>
+  <br />
+  <kbd>键盘输入</kbd>
+  <br />
+  <dfn>定义项目</dfn><br>
+  <tt>打字机文本</tt>
+  <br />
+  <samp>计算机代码样本</samp>
+  <br />
+  <var>计算机变量</var>
+  <br />
+  <p>
+    <b>注释：</b>这些标签常用于显示计算机/编程代码。
+  </p>
+
+  <address>
+Written by <a href="mailto:webmaster@example.com">Jon Doe</a>.<br>
+Visit us at:<br>
+Example.com<br>
+Box 564, Disneyland<br>
+USA
+</address>
+
+  <abbr title="etcetera">etc.</abbr>
+  <br>
+  <acronym title="World Wide Web">WWW</acronym>
+  <p>在某些浏览器中，当您把鼠标移至缩略词语上时，title 可用于展示表达的完整版本。</p>
+  <p>仅对于 IE 5 中的 acronym 元素有效。</p>
+  <p>对于 Netscape 6.2 中的 abbr 和 acronym 元素都有效。</p>
+
+  <p>该段文字从左到右显示。</p>
+  <p><bdo dir="rtl">该段落文字从右到左显示。</bdo></p>
+
+  <p>WWF's goal is to:
+    <q>Build a future where people live in harmony with nature.</q> We hope they succeed.</p>
+
+  <h1>About WWF</h1>
+  <p>Here is a quote from WWF's website:</p>
+
+  <p>
+    <a href="http://www.w3cschool.cn">本文本</a> 是一个指向本网站中的一个页面的链接。</p>
+  <p><a href="http://www.microsoft.com/">本文本</a> 是一个指向万维网上的页面的链接。</p>
+
+  <blockquote cite="http://www.worldwildlife.org/who/index.html">
+    <!-- 主流浏览器均不支持 cite 属性。不过，搜索引擎可能会使用该属性获得更多有关引用的信息。
+cite 属性规定引用的来源。
+提示： 该属性的值是一个包含在引号中并指向联机文档的 URL，以及（如果有可能的话）引用在该文档中的确切位置。 -->
+    For 50 years, WWF has been protecting the future of nature. The worlds leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.
+  </blockquote>
+
+  <p>My favorite color is <del>blue</del> <ins>red</ins>!</p>
+
+  <a href="http://www.w3cschool.cn/">Visit W3CSchool</a><br>
+
+  <a href="https://www.w3cschool.cn/" target="_blank">访问W3Cschool教程!</a><br>
+  <p>如果你将 target 属性设置为 "_blank", 链接将在新窗口打开。</p><br>
+
+  <a href="#tips">Visit the Useful Tips Section</a><br>
+  <a href="https://www.w3cschool.cn/html_links.html#tips"> Visit the Useful Tips Section</a><br>
+
+  <a href="http://www.w3cschool.cn">这是一个链接使用了 href 属性</a><br>
+
+  <p>创建图片链接:
+    <a href="http://www.w3cschool.cn/html/html-tutorial.html">
+<img src="https://www.w3cschool.cn/statics/images/course/smiley.gif" alt="HTML 教程" width="32" height="32"></a></p>
+
+  <p>无边框的图片链接:
+    <a href="http://www.w3cschool.cn/html/html-tutorial.html">
+<img border="0" src="https://www.w3cschool.cn/statics/images/course/smiley.gif"
+alt="HTML 教程" width="32" height="32"></a></p>
+
+  <p>
+    这是一个电子邮件链接：
+    <a href="mailto:wangdangpeng@factzone.com?Subject=Hello%20again" target="_top">
+发送邮件</a>
+  </p>
+  <p>
+    <b>注意:</b> 单词之间空格使用 %20 代替，以确保浏览器可以正常显示文本。
+  </p>
+
+  <img src="https://news.usc.edu/files/2018/04/USC-Kobe-Bryant-040218-e-0060-web-1200x800.jpg" width="600" height="400">
+</body>
+
+</html>

@@ -1,0 +1,139 @@
+<!-- simple_ex2 -->
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="description" content="免费web教程">
+  <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+  <meta name="author" content="W3Cschool">
+  <meta http-equiv="refresh" content="30">
+  <meta charset="utf-8">
+  <title>W3Cschool教程(w3cschool.cn)</title>
+  <base href="http://www.w3cschool.cn/statics/images/w3c/" target="_blank">
+</head>
+
+<body>
+  <img src="logo.png"> <br> - 注意这里我们设置了图片的相对地址。<br> 能正常显示是因为我们在 head 部分设置了 base 标签，<br> 该标签指定了页面上所有链接的默认 URL，所以该图片的访问地址为<br> "http://www.w3cschool.cn/statics/images/w3c/logo.png"
+  <br><br>
+
+  <a href="http://www.w3cschool.cn" style="text-decoration:none;">W3Cschool教程</a><br> - 注意这个链接会在新窗口打开，即便它没有 target="_blank" 属性。<br> 因为在 base 标签里我们已经设置了 target 属性的值为 "_blank"。<br>
+
+  <p>
+    一个图像:
+    <img src="https://www.w3cschool.cn/statics/images/course/smiley.gif" alt="Smiley face" width="32" height="32"></p>
+  <p>
+    一个动图:
+    <img src="https://www.w3cschool.cn/statics/images/w3c/eg_compman.gif" alt="Computer man" width="48" height="48"></p>
+  <p>
+    注意插入动图的语法和静态图的语法是一样的。
+  </p>
+
+  <p>创建图片链接:
+    <a href="http://www.w3cschool.cn/html/html-tutorial.html">
+<img src="/statics/images/course/smiley.gif" alt="HTML 教程" width="32" height="32"></a></p>
+
+  <p>无边框的图片链接:
+    <a href="http://www.w3cschool.cn/html/html-tutorial.html">
+<img border="0" src="/statics/images/course/smiley.gif" alt="HTML 教程" width="32" height="32"></a></p>
+
+  <p>
+    每个表格从一个 table 标签开始。 每个表格行从 tr 标签开始。 每个表格的数据从 td 标签开始。
+  </p>
+
+  <h4>一列:</h4>
+  <table border="1">
+    <tr>
+      <td>100</td>
+    </tr>
+  </table>
+
+  <h4>一行三列:</h4>
+  <table border="1" cellpadding="10">
+    <tr>
+      <td>100</td>
+      <td>200</td>
+      <td>300</td>
+    </tr>
+  </table>
+
+  <h4>两行三列:</h4>
+  <table border="1" cellspacing="0">
+    <tr>
+      <th>Header 1</th>
+      <th>Header 2</th>
+      <th>Header 3</th>
+    </tr>
+    <tr>
+      <td>100</td>
+      <td>200</td>
+      <td>300</td>
+    </tr>
+    <tr>
+      <td>400</td>
+      <td>500</td>
+      <td>600</td>
+    </tr>
+  </table>
+
+  <h4>单元格跨两格:</h4>
+  <table border="1">
+    <tr>
+      <th>Name</th>
+      <th colspan="2">Telephone</th>
+    </tr>
+    <tr>
+      <td>Bill Gates</td>
+      <td>555 77 854</td>
+      <td>555 77 855</td>
+    </tr>
+  </table>
+
+  <h4>单元格跨两列:</h4>
+  <table border="1">
+    <tr>
+      <th>First Name:</th>
+      <td>Bill Gates</td>
+    </tr>
+    <tr>
+      <th rowspan="2">Telephone:</th>
+      <td>555 77 854</td>
+    </tr>
+    <tr>
+      <td>555 77 855</td>
+    </tr>
+  </table>
+
+  <table border="1">
+    <tr>
+      <td>
+        <p>这是一个段落</p>
+        <p>这是另一个段落</p>
+      </td>
+      <td>这个单元格包含一个表格:
+        <table border="1">
+          <tr>
+            <td>A</td>
+            <td>B</td>
+          </tr>
+          <tr>
+            <td>C</td>
+            <td>D</td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <tr>
+      <td>这个单元格包含一个列表
+        <ul>
+          <li>apples</li>
+          <li>bananas</li>
+          <li>pineapples</li>
+        </ul>
+      </td>
+      <td>HELLO</td>
+    </tr>
+  </table>
+
+</body>
+
+</html>
