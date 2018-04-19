@@ -10,9 +10,9 @@
 
   <h4>无序列表:</h4>
   <!-- <ul> -->
-    <li>咖啡</li>
-    <li>茶</li>
-    <li>牛奶</li>
+  <li>咖啡</li>
+  <li>茶</li>
+  <li>牛奶</li>
   </ul>
 
   <ol>
@@ -34,6 +34,80 @@
     <dd>- white cold drink</dd>
   </dl>
 
+  <form action="">
+    Name : <input type="text" name="name"><br> Age : <input type="text" name="age">
+  </form>
+
+  <p><b>注意：</b> 表单本身是不可见的。并且注意一个文本字段的默认宽度是20个字符。</p>
+
+  <form action="get">
+    Username: <input type="text" name="user"><br> Password: <input type="password" name="password">
+  </form>
+
+  <form>
+    <input type="radio" name="sex" value="male">Male<br>
+    <input type="radio" name="sex" value="female">Female
+  </form>
+
+  <form>
+    <input type="checkbox" name="vehicle" value="Bike">I have a bike<br>
+    <input type="checkbox" name="vehicle" value="Car">I have a car
+  </form>
+
+  <form>
+    Username: <input type="text" name="user">
+    <input type="submit" value="Submit">
+  </form>
+
+  <form action="">
+    <select name="cars">
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="fiat" selected>Fiat</option>
+  <option value="audi">Audi</option>
+  </select>
+  </form>
+
+  <textarea rows="10" cols="30">
+我是一个文本框。
+</textarea>
+
+  <form action="">
+    <input type="button" value="Hello world!">
+  </form>
+
+  <h3>Send e-mail to someone@example.com:</h3>
+  <form action="MAILTO:someone@example.com" method="post" enctype="text/plain">
+    Name:<br>
+    <input type="text" name="name" value="your name"><br> E-mail:
+    <br>
+    <input type="text" name="mail" value="your email"><br> Comment:
+    <br>
+    <input type="text" name="comment" value="your comment" size="50"><br><br> send time:<br>
+    <select name=time>
+<option  value="2015">2015</option></br>
+<option value="2016">2016</option></br>
+<option  value="2017">2017</option></br>
+</select></br>
+    <input type="submit" value="Send">
+    <input type="reset" value="Reset">
+  </form>
+
+  <iframe src="https://www.w3cschool.cn/" width="200" height="200" frameborder="0">
+   <p>您的浏览器不支持  iframe 标签。</p>
+  </iframe>
+
+  <p style="background-color:#FFFF00">
+    通过十六进制设置背景颜色
+  </p>
+
+  <p style="background-color:rgb(255,255,0)">
+    通过 rgb 值设置背景颜色
+  </p>
+
+  <p style="background-color:yellow">
+    通过颜色名设置背景颜色
+  </p>
 </body>
 
 </html>
