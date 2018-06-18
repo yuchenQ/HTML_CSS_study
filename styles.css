@@ -1,0 +1,12 @@
+/** This is a comment that the browser will ignore,
+* Put your CSS code into this file
+*/
+
+h1{
+  /* this property can coordinate the background color of the h1 */
+  background-color: rgba(32, 96, 221, 0.57);
+  /* this property can coordinate the text color of the h1 */
+  color: rgba(0, 0, 0);
+  /* this property can coordinate the font of the h1 */
+  font-family: Arial, Verdana;
+}
